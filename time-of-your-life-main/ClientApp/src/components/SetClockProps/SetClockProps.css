@@ -1,0 +1,24 @@
+#ClockProps {
+    border: 1px solid gray;
+    float: right;
+    width: 40%;
+    transition: min-height 0.3s;
+}
+
+.collapsed {
+    height: 65px !important;
+    min-height: 65px !important;
+    overflow: hidden;
+}
+
+.expanded {
+    overflow: auto;
+    min-height: 600px;
+}
+
+.preset-button {
+    color: darkblue;
+    font-weight: bold;
+    margin-right: 5px;
+    float: left;
+}

@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.error-message {
+    color: red;
+}
+
+.invalid-input {
+    border: 2px solid red;
+    color: red;
+}

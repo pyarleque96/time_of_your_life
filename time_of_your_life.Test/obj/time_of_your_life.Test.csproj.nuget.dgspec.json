@@ -1,0 +1,387 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Test\\time_of_your_life.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time-of-your-life-main\\time_of_your_life.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time-of-your-life-main\\time_of_your_life.csproj",
+        "projectName": "time_of_your_life",
+        "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time-of-your-life-main\\time_of_your_life.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time-of-your-life-main\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Application\\time_of_your_life.Application.csproj": {
+                "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Application\\time_of_your_life.Application.csproj"
+              },
+              "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Domain\\time_of_your_life.Domain.csproj": {
+                "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Domain\\time_of_your_life.Domain.csproj"
+              },
+              "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Infrastructure\\time_of_your_life.Infrastructure.csproj": {
+                "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Infrastructure\\time_of_your_life.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.SpaProxy": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Application\\time_of_your_life.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Application\\time_of_your_life.Application.csproj",
+        "projectName": "time_of_your_life.Application",
+        "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Application\\time_of_your_life.Application.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Domain\\time_of_your_life.Domain.csproj": {
+                "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Domain\\time_of_your_life.Domain.csproj"
+              },
+              "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Infrastructure\\time_of_your_life.Infrastructure.csproj": {
+                "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Infrastructure\\time_of_your_life.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Domain\\time_of_your_life.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Domain\\time_of_your_life.Domain.csproj",
+        "projectName": "time_of_your_life.Domain",
+        "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Domain\\time_of_your_life.Domain.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Infrastructure\\time_of_your_life.Infrastructure.csproj": {
+                "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Infrastructure\\time_of_your_life.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Infrastructure\\time_of_your_life.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Infrastructure\\time_of_your_life.Infrastructure.csproj",
+        "projectName": "time_of_your_life.Infrastructure",
+        "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Infrastructure\\time_of_your_life.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Test\\time_of_your_life.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Test\\time_of_your_life.Test.csproj",
+        "projectName": "time_of_your_life.Test",
+        "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Test\\time_of_your_life.Test.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time_of_your_life.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time-of-your-life-main\\time_of_your_life.csproj": {
+                "projectPath": "C:\\Pedro\\files\\Entrevistas\\Tranzact\\Challenge TimeLife\\time-of-your-life-main\\time_of_your_life.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

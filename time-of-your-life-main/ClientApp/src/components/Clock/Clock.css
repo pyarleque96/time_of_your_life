@@ -1,0 +1,7 @@
+#Clock {
+  border: 1px solid black;
+  float: left;
+  width: 59%;
+  min-height: 600px;
+  vertical-align: middle;
+}
